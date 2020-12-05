@@ -1,0 +1,41 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid lightgray;
+}
+
+.nav-bar {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.nav-bar > li {
+	padding: 10px;
+}
+
+.intro {
+	margin: 10px;
+	padding: 20px;
+}
+
+#man-pic {
+	height: 200px;
+}
+
+.about {
+	margin: 10px;
+	padding: 20px;
+}
+
+footer {
+	bottom: 0;
+	height: 100px;
+	border-top: 1px solid lightgrey;
+	width: 100vw;
+}
